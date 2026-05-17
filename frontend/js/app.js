@@ -1972,7 +1972,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             { type: 'query', query: 'subject:mystery atmosphere', elementId: 'row-rainy' },
             { type: 'query', query: 'authors:arundhati roy|subject:india', elementId: 'row-indian' },
             { type: 'query', query: 'subject:classic fiction', elementId: 'row-classics' },
-            {
+            { type: 'query', query: 'subject:thriller+suspense&orderBy=relevance', elementId: 'row-thriller' },
+            
                 type: 'category',
                 elementId: 'row-dark-academia',
                 category: 'Dark Academia',
